@@ -6,10 +6,11 @@
 
 Check out code related to our model [here](https://github.com/OrysyaStus/fakenews_code).
 
+#### Check out our most current model at [newsbreakers.herokuapp.com](newsbreakers.herokuapp.com).  
+
 ### Demo
 
-Check out our most current model at [newsbreakers.herokuapp.com](newsbreakers.herokuapp.com).
-For view on how to use check [this](https://www.youtube.com/watch?v=misls7a1ePo) out.
+[![video](https://img.youtube.com/vi/misls7a1ePo/0.jpg)](https://www.youtube.com/watch?v=misls7a1ePo)
 
 ### Team Members
 

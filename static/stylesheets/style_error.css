@@ -37,7 +37,7 @@ section.container-inner {
 
 .user-input {
   height: 275px;
-  margin-top: -25px;
+  margin-top: 50px;
 }
 .formtext:focus{
   outline: none;
@@ -103,10 +103,15 @@ input::placeholder {
 }
 
 @media only screen and (max-width: 813px) {
+  .user-input {
+    height: 275px;
+    margin-top: -5px;
+  }
   h4{
-    font-size: 20px;
+    font-size: 10px;
     margin-bottom: 0px;
     margin-top:10px;
+    color: #e20123;
   }
   h5{
     margin-top: 0px;
@@ -149,11 +154,15 @@ input::placeholder {
 /* Tablet Styles */
 @media only screen and (min-width: 813px) and (max-width: 1230px) {
 
-
+  .user-input {
+    height: 275px;
+    margin-top: 30px;
+  }
   h4{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 0px;
     margin-top:15px;
+    color: #e20123;
   }
 
   h3{
@@ -194,10 +203,15 @@ input::placeholder {
 /* Desktop Styles */
 @media only screen and (min-width: 1230px) {
 
+  .user-input {
+    height: 275px;
+    margin-top: 50px;
+  }
   h4{
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 0px;
     margin-top:15px;
+    color: #e20123;
   }
 
   h3{

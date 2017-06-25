@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='stylesheets/style_results.css') }}">
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='stylesheets/style_error.css') }}">
 <header>
     <div class="nav">
       <ul>
@@ -18,12 +18,12 @@
 </div>
 <div class = "user-input">
 <body>
-  <h4>We are <mark class="red">{{ prob }}%</mark> confident<br>this article is <mark class="red">{{ pred }}</mark>.</h4>
-  <h4>The title is <mark class="red">{{ fuzzy }}% </mark><br> similar to the text. </h4>
-  <h4>There's <mark class="red">{{ subjectivity }}% </mark> subjectivity<br> and <mark class="red">{{ polarity }}% </mark> polarity.</h4>
+  <h4 class = "error">Uh oh!</h4>
+  <h4 class = "error">There was some trouble scraping that URL. </h4>
+  <h4 class = "error">Please try a different URL.</h4>
   <p></p>
 </body>
-<a class = "buttoncontain" href = "{{ url_for('my_form') }}"><input class = "butt" type = "button" value = "REFRESH"></input></a>
+<a class = "buttoncontain" href = "{{ url_for('my_form') }}"><input class = "butt" type = "button" value = "TRY AGAIN"></input></a>
 </div>
 </section>
 </section>

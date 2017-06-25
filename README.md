@@ -1,8 +1,21 @@
-# Fake News
+# Breaking News
+
+## Description
+
+## Final Product
+
+Check out our most current model at [newsbreakers.herokuapp.com](newsbreakers.herokuapp.com)
+
+## Team Members
+
+* Brett Bejcek
+* Mayuree Binjolkar
+* Orysya Stus
+* Michael Vlah
 
 MIT License
 
-Copyright (c) 2017 Global AI Fake News Seattle Hackathon Team
+Copyright (c) 2017 Global AI Breaking News Seattle Hackathon Team
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

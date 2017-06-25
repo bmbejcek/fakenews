@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  background: #f7f3f0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  position: relative;
+  color: #fff;
+  opacity: 0;
+  transition: .8s ease-in-out;
+}
+
+.center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* main form on page */
+.input{
+  background: transparent;
+}

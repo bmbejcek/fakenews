@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='stylesheets/style.css') }}">
+<header>
+    <div class="nav">
+      <ul>
+        <li class="home"><a class="active" href="{{ url_for('my_form') }}">HOME</a></li>
+        <li class="model"><a  href="{{ url_for('my_model') }}">MODEL</a></li>
+        <li class="about"><a href="https://github.com/bmbejcek/fakenews">ABOUT</a></li>
+      </ul>
+    </div>
+  </header>
+<section class = "container-outer">
+  <section class = "container-inner">
+<div class = "heading">
+<h3>BREAKING</h3>
+<h2>NEWS</h2>
+</div>
+<div class = "user-input">
+<body>
+    <form action="." method="POST" autocomplete="off">
+      <input class = "formtext" type="text" name="text" placeholder="ENTER URL HERE" autofocus="autofocus" spellcheck="false" >
+    </form>
+</body>
+</div>
+</section>
+</section>
+<div class = "footer">
+<p>ALL RIGHTS RESERVED</p>
+</div>
+</html>

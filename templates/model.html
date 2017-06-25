@@ -1,0 +1,42 @@
+
+<html>
+    <head>
+
+        <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau_v8.debug.js"></script>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='stylesheets/style.css') }}">
+    </head>
+    <body>
+      <header>
+          <div class="nav">
+            <ul>
+              <li class="home"><a href="{{ url_for('my_form') }}">HOME</a></li>
+              <li class="model"><a class="active" href="{{ url_for('my_model') }}">MODEL</a></li>
+              <li class="about"><a href="https://github.com/bmbejcek/fakenews">ABOUT</a></li>
+            </ul>
+          </div>
+        </header>
+<script>
+                    var vizDiv=document.getElementById('viz');
+                    var vizURL= "https://public.tableau.com/views/BreakingNews/NBTextClassifier?:embed=y&:display_count=yes";
+                    var options= {
+                        width: '100%',
+                        height: '768px',
+                        hideToolbar: true,
+                        hideTabs: false,
+                        onFirstInteractive: function(){
+                            document.getElementById('sheetName') .innerHTML=viz.getWorkbook().getActiveSheet().getName();
+                        }
+                    };
+                    viz= new tableauSoftware.Viz(vizDiv, vizURL, options);
+
+                    viz.addEventListener('tabswitch',function(event){
+                        document.getElementById('sheetName') .innerHTML=event.getNewSheetName();
+                    });
+
+                    function switchView(sheetName){
+                        workbook=viz.getWorkbook();
+                        workbook.activateSheetAsync(sheetName);
+                    }
+                </script>
+    </body>
+</html>

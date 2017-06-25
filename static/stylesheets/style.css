@@ -1,0 +1,178 @@
+/* Mobile Styles */
+
+body {
+  margin: 0;
+  background: #f7f3f0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+section.container-outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+section.container-inner {
+  display: table-cell;
+  vertical-align: top;
+  padding-top: 100px;
+  height: 275px;
+}
+
+.user-input {
+  height: 275px;
+}
+.formtext:focus{
+  outline: none;
+  text-decoration-color:
+}
+input::placeholder {
+  color: #bababa;
+}
+.nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #444;
+  display: block;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  color: #e20123;
+}
+
+.nav a.active {
+  color: #444;
+  cursor: default;
+  border: none;
+}
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  color:#cccccc;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+@media only screen and (max-width: 813px) {
+  h3{
+    font-size: 1.8375em;
+    color: #e20123;
+    margin:0;
+    padding-left: 0.3vw;
+  }
+  h2{
+    font-size: 3.28125em;
+    color: black;
+    margin:0;
+    padding:0;
+  }
+
+  .heading {
+    width: 40%;
+    height: 275px;
+    float: left;
+    padding-left: 10vw;
+}
+  .formtext{
+    background: transparent;
+    border: none;
+    padding-top:35px;
+    padding-left: 0px;
+    width: 40vw;
+    font-size: 100%;
+    color: #bababa;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 813px) and (max-width: 1230px) {
+
+  h3{
+    font-size: 3.675em;
+    color: #e20123;
+    margin:0;
+    padding-left: 0.3vw;
+  }
+  h2{
+    font-size: 6.5625em;
+    color: black;
+    margin:0;
+    padding:0;
+  }
+
+  .heading {
+    width: 40%;
+    height: 275px;
+    float: left;
+    padding-left: 10vw;
+}
+  .formtext{
+    background: transparent;
+    border: none;
+    padding-top:70px;
+    padding-left: 50px;
+    width: 40vw;
+    font-size: 200%;
+    color: #bababa;
+  }
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1230px) {
+
+  h3{
+    font-size: 4.9em;
+    color: #e20123;
+    margin:0;
+    padding-left: 0.3vw;
+  }
+  h2{
+    font-size: 8.75em;
+    color: black;
+    margin:0;
+    padding:0;
+  }
+
+  .heading {
+    width: 40%;
+    height: 275px;
+    float: left;
+    padding-left: 10vw;
+}
+
+  .formtext{
+    background: transparent;
+    border: none;
+    padding-top:70px;
+    padding-left: 0px;
+    width: 40vw;
+    font-size: 400%;
+    color: #bababa;
+  }
+
+
+}

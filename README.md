@@ -6,7 +6,7 @@
 
 Check out code related to our model [here](https://github.com/OrysyaStus/fakenews_code).
 
-#### Check out our most current model at [newsbreakers.herokuapp.com](newsbreakers.herokuapp.com).  
+#### Check out our most current model at [newsbreakers.herokuapp.com](www.newsbreakers.herokuapp.com).  
 
 ### Demo
 

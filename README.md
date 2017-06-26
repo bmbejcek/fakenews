@@ -19,6 +19,10 @@ Check out code related to our model [here](https://github.com/OrysyaStus/fakenew
 * [Orysya Stus](https://www.linkedin.com/in/orysyastus/)
 * [Michael Vlah](https://www.linkedin.com/in/michaelvlah)
 
+### Accomplishments
+
+* Seattle Global AI Hackaton Regional Winner June 2017
+
 MIT License
 
 Copyright (c) 2017 Global AI Breaking News Seattle Hackathon Team

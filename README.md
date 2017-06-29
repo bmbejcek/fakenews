@@ -1,8 +1,31 @@
-# Fake News
+# Breaking News
+
+### Description
+ 
+[A collection](https://www.kaggle.com/mrisdal/fake-news) of labeled fake news and real news (top credible news sources from https://webhose.io/) was used to train a Naive Bayes model to predict probabilities of fake news based on article text. The model predicted fake or real with 85% accuracy using ~1,100 articles in our testing set and a training set of ~4,000 articles. We cannot guarantee the correctness of our labels, given the subjectivity of the terms "fake" and "real". Therefore this tool is not a perfect judge of all articles, but can be used as a gentle guide. 
+
+Check out code related to our model [here](https://github.com/OrysyaStus/fakenews_code).
+
+#### Check out our most current model at [newsbreakers.herokuapp.com](http://newsbreakers.herokuapp.com).  
+
+### Demo
+
+[![video](https://img.youtube.com/vi/misls7a1ePo/0.jpg)](https://www.youtube.com/watch?v=misls7a1ePo)
+
+### Team Members
+
+* [Brett Bejcek](https://www.linkedin.com/in/brettbejcek/)
+* [Mayuree Binjolkar](https://www.linkedin.com/in/mayuree-binjolkar-974a7133/)
+* [Orysya Stus](https://www.linkedin.com/in/orysyastus/)
+* [Michael Vlah](https://www.linkedin.com/in/michaelvlah)
+
+### Accomplishments
+
+* Seattle Global AI Hackaton Regional Winner June 2017
 
 MIT License
 
-Copyright (c) 2017 Global AI Fake News Seattle Hackathon Team
+Copyright (c) 2017 Global AI Breaking News Seattle Hackathon Team
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

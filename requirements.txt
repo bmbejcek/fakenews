@@ -15,7 +15,7 @@ lxml==3.8.0
 MarkupSafe==1.0
 newspaper3k==0.2.2
 nltk==3.2.4
-numpy==1.13.0
+numpy==1.21.0
 olefile==0.44
 Pillow==4.1.1
 python-dateutil==2.6.0
